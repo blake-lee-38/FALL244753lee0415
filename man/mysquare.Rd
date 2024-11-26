@@ -2,7 +2,7 @@
 % Please edit documentation in R/mysquare.R
 \name{mysquare}
 \alias{mysquare}
-\title{The Square Function}
+\title{The Square Function squares each value passed to it}
 \usage{
 mysquare(x)
 }
@@ -10,10 +10,10 @@ mysquare(x)
 \item{x}{-> A vector of quantitative Data}
 }
 \value{
-a Vector
+a Vector of squared values
 }
 \description{
-The Square Function
+The Square Function squares each value passed to it
 }
 \examples{
 mysquare(x = 1:10)
